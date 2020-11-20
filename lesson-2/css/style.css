@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Arial";
+}
+
+.header {
+    background: #445162;
+    padding: 50px;
+    color: #ffffff;
+}
+
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__title {
+    font-size: 60px;
+    line-height: 45px;
+    margin-bottom: 42px;
+    font-weight: 400;
+}
+
+.header__list {
+    font-size: 20px;
+    line-height: 36px;
+    list-style: none;
+}
+
+.header__item::before {
+    content: url(../img/check_icon.png);
+}
